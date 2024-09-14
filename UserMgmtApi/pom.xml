@@ -11,7 +11,7 @@
 	<groupId>com.niraj</groupId>
 	<artifactId>UserMgmtApi</artifactId>
 	<version>1.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>UserMgmtApi</name>
 	<description>User Mgmt API</description>
 	<url/>
