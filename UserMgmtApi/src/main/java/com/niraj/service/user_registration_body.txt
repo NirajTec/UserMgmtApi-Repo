@@ -1,0 +1,11 @@
+Hi {FULL_NAME},<br>
+<br>
+Your User Account Registartion Process is Completed.<br>
+<br>
+Please find your temporary password below.<br>
+<b>Temporary Password - {PASSWORD}.</b> <br>
+<br>
+<a href="{URL}",click here to unlock your Account.<br>
+<br>
+   <i>Thanks,</i><br>
+     <i> Admin Team </i>

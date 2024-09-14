@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: UserMgmtApi
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: 'jdbc:mysql://194.164.120.114:3306/user_mgmt_api'
+    username: niraj
+    password: Niraj@123
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: javadevloper511@gmail.com
+    password: iqir nvgp arjy aeez
+    properties:
+      mail:
+      debug: true
+      transport:
+        protocol: smtp
+      smtp:
+        starttls:
+          enable: true
+          required: true
+        auth: true
+server:
+  port: 8081
+mailbody:
+  registerUser:
+    location: src/main/java/com/niraj/service/user_registration_body.txt
+  recoverPassword:
+    location: src/main/java/com/niraj/service/recover_password_body.txt
